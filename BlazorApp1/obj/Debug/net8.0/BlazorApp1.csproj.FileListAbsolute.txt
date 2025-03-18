@@ -268,4 +268,5 @@ C:\Users\Administrator\Documents\GitHub\EmployeeApp\BlazorApp1\bin\Debug\net8.0\
 C:\Users\Administrator\Documents\GitHub\EmployeeApp\BlazorApp1\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 C:\Users\Administrator\Documents\GitHub\EmployeeApp\BlazorApp1\obj\Debug\net8.0\BlazorApp1.csproj.AssemblyReference.cache
 C:\Users\Administrator\Documents\GitHub\EmployeeApp\BlazorApp1\obj\Debug\net8.0\BlazorApp1.csproj.Up2Date
+C:\Users\Administrator\Documents\GitHub\EmployeeApp\BlazorApp1\obj\Debug\net8.0\BlazorApp1.sourcelink.json
 C:\Users\Administrator\Documents\GitHub\EmployeeApp\BlazorApp1\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

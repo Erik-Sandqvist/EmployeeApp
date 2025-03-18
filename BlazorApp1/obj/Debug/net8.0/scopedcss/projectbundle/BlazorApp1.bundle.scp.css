@@ -3,6 +3,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
+    background-color: rgba(20,40,50);
 }
 
 main[b-j65y7q72mt] {
@@ -10,11 +11,11 @@ main[b-j65y7q72mt] {
 }
 
 .sidebar[b-j65y7q72mt] {
-    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+    background-color: rgba(1,0,30);
 }
 
 .top-row[b-j65y7q72mt] {
-    background-color: #f7f7f7;
+    background-color: rgba(1,0,30);
     border-bottom: 1px solid #d6d5d5;
     justify-content: flex-end;
     height: 3.5rem;

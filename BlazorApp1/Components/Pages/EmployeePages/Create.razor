@@ -51,7 +51,7 @@
 
 @code {
     [SupplyParameterFromForm]
-    private Employee Employee { get; set; } = new();
+    private Employee Employee { get; set; } = new() { Name = string.Empty };
 
     // To protect from overposting attacks, see https://learn.microsoft.com/aspnet/core/blazor/forms/#mitigate-overposting-attacks.
     private async Task AddEmployee()

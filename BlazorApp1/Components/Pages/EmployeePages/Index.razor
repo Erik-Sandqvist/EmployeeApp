@@ -8,13 +8,13 @@
 
 <PageTitle>Index</PageTitle>
 
-<h1>Index</h1>
+<h1 class="page-title">Employee List</h1>
 
 <p>
-    <a href="employees/create">Create New</a>
+    <a class="create-link" href="employees/create">Create New</a>
 </p>
 
-<QuickGrid Class="table" Items="context.Employee">
+<QuickGrid Class="employee-table" Items="context.Employee">
     <PropertyColumn Property="employee => employee.Name" />
     <PropertyColumn Property="employee => employee.Title" />
     <PropertyColumn Property="employee => employee.Description" />
@@ -22,9 +22,9 @@
     <PropertyColumn Property="employee => employee.Phone" />
 
     <TemplateColumn Context="employee">
-        <a href="@($"employees/edit?id={employee.Id}")">Edit</a> |
-        <a href="@($"employees/details?id={employee.Id}")">Details</a> |
-        <a href="@($"employees/delete?id={employee.Id}")">Delete</a>
+        <a class="action-link" href="@($"employees/edit?id={employee.Id}")">Edit</a> |
+        <a class="action-link" href="@($"employees/details?id={employee.Id}")">Details</a> |
+        <a class="action-link" href="@($"employees/delete?id={employee.Id}")">Delete</a>
     </TemplateColumn>
 </QuickGrid>
 

@@ -5,7 +5,13 @@ html, body {
 a, .btn-link {
     color: #006bb7;
 }
-
+h1 {
+    color: yellow;
+}
+.hello {
+    margin: 0 auto;
+    display: block;
+}
 .btn-primary {
     color: #fff;
     background-color: #1b6ec2;
@@ -49,3 +55,54 @@ h1:focus {
 .darker-border-checkbox.form-check-input {
     border-color: #929292;
 }
+
+
+/* Employee table*/
+
+.page-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.employee-table {
+    width: 90%;
+    border-collapse: collapse;
+    color: white;
+}
+
+.create-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    background-color: darkcyan;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.create-link:hover {
+    background-color: darkblue;
+}
+
+
+
+.employee-table th, .employee-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.employee-table th {
+    background-color: yellow;
+    text-align: left;
+    color: black;
+}
+
+.action-link {
+    color: yellow;
+    text-decoration: none;
+}
+
+.action-link:hover {
+    text-decoration: underline;
+}
+
